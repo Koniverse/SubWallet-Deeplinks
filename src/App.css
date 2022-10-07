@@ -1,29 +1,92 @@
-.App {
-  text-align: center;
+.app-wrapper {
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-container {
+    background-color: #242424;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-link {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 500px;
+    outline: none;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 16px;
+}
+
+.main-title {
+    font-size: 24px;
+}
+
+.input-link:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+    background-color: #161616;
+    color: #fff;
+    border: 0;
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-primary {
+    background-color: #004BFF;
+}
+
+.btn-primary:hover {
+    background-color: #013bbb;
+}
+
+.generate-btn {
+    margin-bottom: 16px;
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+}
+
+.deeplink-result {
+    color: #999;
+    margin-bottom: 16px;
+}
+
+.qr-wrapper {
+    height: auto;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 4px;
 }
