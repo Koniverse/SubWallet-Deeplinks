@@ -10,7 +10,7 @@ function App() {
     }
     const onGenerateDeeplink: MouseEventHandler<HTMLButtonElement> = (event) => {
         if (inputUrl.startsWith('http')) {
-            setDeeplink(`subwallet://browser?url=${encodeURIComponent(inputUrl)}`);
+            setDeeplink(`https://mobile.subwallet.app/?url=${encodeURIComponent(inputUrl)}`);
         } else {
             setDeeplink('');
         }
