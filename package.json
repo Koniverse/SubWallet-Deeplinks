@@ -1,7 +1,7 @@
 {
   "name": "subwallet-deeplinks",
   "version": "0.1.0",
-  "homepage": "https://koniverse.github.io/deeplinks",
+  "homepage": "https://deeplink.subwallet.app",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
