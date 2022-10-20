@@ -1,4 +1,4 @@
-import React, {ChangeEventHandler, EventHandler, MouseEventHandler, useState} from 'react';
+import React, {ChangeEventHandler, MouseEventHandler, useState} from 'react';
 import QRCode from 'react-qr-code';
 import './App.css';
 

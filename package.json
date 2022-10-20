@@ -20,8 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn build && gh-pages --dist 'build' --branch 'gh-page-publish'",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
