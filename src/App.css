@@ -78,6 +78,11 @@
     height: 450px;
 }
 
+.warning {
+    color: red;
+    margin-bottom: 16px;
+}
+
 .deeplink-result {
     color: #999;
     margin-bottom: 16px;
