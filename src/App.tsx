@@ -22,7 +22,7 @@ function App() {
                 checkIfDenied(checkUrl.host)
                     .then((isDenied) => {
                         if (!isDenied) {
-                            setDeeplink(`https://mobile.subwallet.app/?url=${encodeURIComponent(url)}`);
+                            setDeeplink(`https://mobile.subwallet.app/browser?url=${encodeURIComponent(url)}`);
                             setWarning('')
                         } else {
                             setWarning('Phishing URL detected !!!')
